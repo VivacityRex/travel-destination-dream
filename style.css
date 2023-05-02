@@ -45,7 +45,10 @@ hr {
 footer {
     text-align: center;
     color: maroon;
-    margin: 1100px 0 0 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 0;
 }
 a {
     font-size: 40px;
