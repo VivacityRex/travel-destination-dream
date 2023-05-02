@@ -2,6 +2,7 @@ body {
     background-color: ivory;
     display: block;   
     margin: 0 auto;
+    line-height: 1.5;
 }
 h1{
     font-family: 'Allison', cursive;
@@ -19,6 +20,9 @@ h1{
     background-position: center;
     text-align: center;
   }
+  p {
+    text-align: left;
+}
 #page-title {  
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
@@ -31,8 +35,8 @@ h1{
 .row {
     background-color: ivory;
     border-radius: 15px;
-    margin: 40px 80px 40px 80px;
-    padding: 40px;
+    margin: 40px 10px;
+    padding: 20px;
 }
 
 .vline {
@@ -55,4 +59,27 @@ a {
     font-size: 40px;
     color: maroon;
     font-family: 'Allison', cursive;
+}
+@media only screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    #page-title {
+        padding: 50px 10px 10px 10px;
+    }
+
+    .row {
+        margin: 20px 10px;
+        padding: 10px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    a {
+        font-size: 30px;
+    }
 }
