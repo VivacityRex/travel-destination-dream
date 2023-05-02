@@ -1,20 +1,44 @@
 body {
-    background-color: rgb(0, 0, 0);
-    background-image: url(img/janeAusten.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(7, 31, 5, 0.9);
+    
 }
-h1 {
-    background-color: rgba(250, 235, 215, 0.8);
-    text-align: center;
-    color: maroon;
+.mainPage {
+    background-image: url(img/englandGreen.jpg);
+    background-repeat: no-repeat;
+    background-size: 
+}
+h1{
     font-family: 'Allison', cursive;
+    color: maroon;
+    text-align: center;
+}
+#page-title {
+    background-color: rgba(250, 235, 215, 0.9);
     font-size: 100px;
     display: block;
     padding: 8px;
-    border-radius: 10px;
-    margin: 10px 200px 10px 200px;
+    border-radius: 15px;
+    margin: 20px 200px 20px 200px;
+}
+.row {
+    background-color: rgba(250, 235, 215, 0.9);
+}
+.vline {
+    border-left: 1px solid #ccc;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    border-color: maroon;
 }
 hr {
     border-color: maroon;
+}
+footer {
+    text-align: center;
+    color: maroon;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
 }
