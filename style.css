@@ -3,14 +3,15 @@ body {
     
 }
 .mainPage {
-    background-image: url(img/englandGreen.jpg);
+    
     background-repeat: no-repeat;
-    background-size: 
+    
 }
 h1{
     font-family: 'Allison', cursive;
     color: maroon;
     text-align: center;
+    margin: 20px;
 }
 #page-title {
     background-color: rgba(250, 235, 215, 0.9);
@@ -22,10 +23,14 @@ h1{
 }
 .row {
     background-color: rgba(250, 235, 215, 0.9);
+    border-radius: 15px;
+    margin: 80px;
+    padding: 40px;
 }
+
 .vline {
     border-left: 1px solid #ccc;
-    height: 50%;
+    height: 60%;
     position: absolute;
     left: 50%;
     margin-left: -3px;
@@ -36,9 +41,14 @@ hr {
 }
 footer {
     text-align: center;
-    color: maroon;
+    color: rgba(250, 235, 215, 0.9);
     position: fixed;
     bottom: 0;
     width: 100%;
     z-index: 10;
+}
+a {
+    font-size: 40px;
+    color: maroon;
+    font-family: 'Allison', cursive;
 }
