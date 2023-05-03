@@ -9,7 +9,7 @@ h1{
     color: maroon;
     text-align: center;
     margin: 20px;
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 700;
 }
 .banner-image {
@@ -41,6 +41,21 @@ h1{
 
 hr {
     border-color: maroon;
+}
+.btn {
+    background-color: maroon;
+    color: ivory;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.btn:hover {
+color: maroon;
+font-weight: 800;
+background-color: ivory;
+border: 2px solid maroon;
 }
 footer {
     text-align: center;
